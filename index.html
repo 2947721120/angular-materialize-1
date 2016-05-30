@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_cn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <title>Angularjs directives for Materialize CSS Framework</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css">
+    <title>AngularJS指令实现CSS框架</title>
+    <link rel="stylesheet" href="https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.c2cbc.com/ajax/libs/prism/0.0.1/prism.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://font.c2cmalls.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+    <script type="text/javascript" src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.c2cbc.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
     <script type="text/javascript" src="src/angular-materialize.js"></script>
 
@@ -31,19 +31,19 @@
     <ul id="nav-mobile" class="side-nav fixed">
         <!--Maybe a logo?-->
         <!--<li class="logo" style="margin-left: -15px;"><a id="logo-container" href="http://materializecss.com/"class="brand-logo"><h3></h3></a></li>-->
-        <li class="bold"><a href="#about" class="waves-effect waves-teal">About angular-materialize</a></li>
-        <li class="bold"><a href="#getting-started" class="waves-effect waves-teal">Getting started</a></li>
+        <li class="bold"><a href="#about" class="waves-effect waves-teal">关于角物质化</a></li>
+        <li class="bold"><a href="#getting-started" class="waves-effect waves-teal">入门</a></li>
 
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
-                <li class="bold"><a class="collapsible-header waves-effect waves-teal active">Forms</a>
+                <li class="bold"><a class="collapsible-header waves-effect waves-teal active">形式</a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="#input-field">Input-field</a></li>
-                            <li><a href="#input-date">Input-date</a></li>
-                            <li><a href="#input-clock">Input-clock</a></li>
-                            <li><a href="#select">Material select</a></li>
-                            <li><a href="#range">Range select</a></li>
+                            <li><a href="#input-field">输入场</a></li>
+                            <li><a href="#input-date">输入日期</a></li>
+                            <li><a href="#input-clock">输入时钟</a></li>
+                            <li><a href="#select">材料选择</a></li>
+                            <li><a href="#range">范围选择</a></li>
                         </ul>
                     </div>
                 </li>
@@ -55,18 +55,18 @@
                 <li class="bold"><a class="collapsible-header waves-effect waves-teal active">JavaScript</a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="#collapsible">Collapsible</a></li>
-                            <li><a href="#toast">Dialogs - Toast</a></li>
-                            <li><a href="#tooltip">Tooltip</a></li>
-                            <li><a href="#pushpin">Pushpin</a></li>
-                            <li><a href="#dropdown">Dropdown</a></li>
-                            <li><a href="#modals">Modals</a></li>
-                            <li><a href="#parallax">Parallax</a></li>
+                            <li><a href="#collapsible">可折叠</a></li>
+                            <li><a href="#toast">对话框 - 吐司</a></li>
+                            <li><a href="#tooltip">提示</a></li>
+                            <li><a href="#pushpin">图钉</a></li>
+                            <li><a href="#dropdown">落下</a></li>
+                            <li><a href="#modals">礼貌</a></li>
+                            <li><a href="#parallax">视差</a></li>
                             <li><a href="#scrollfire">ScrollFire</a></li>
                             <li><a href="#sidenav">SideNav</a></li>
-                            <li><a href="#slider">Slider</a></li>
-                            <li><a href="#media">Media</a></li>
-                            <li><a href="#tabs">Tabs</a></li>
+                            <li><a href="#slider">滑块</a></li>
+                            <li><a href="#media">媒体</a></li>
+                            <li><a href="#tabs">标签</a></li>
                         </ul>
                     </div>
                 </li>
@@ -75,10 +75,10 @@
 
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
-                <li class="bold"><a class="collapsible-header waves-effect waves-teal active">Components</a>
+                <li class="bold"><a class="collapsible-header waves-effect waves-teal active">组件</a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="#pagination">Pagination</a></li>
+                            <li><a href="#pagination">分页</a></li>
                         </ul>
                     </div>
                 </li>
@@ -91,8 +91,8 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h1 class="header center-on-small-only"><a href="https://github.com/kresCruz/angular-materialize" style="color:white;">Angular-materialize</a></h1>
-                    <p style="color: white;" class="center-on-small-only">This is a collection of simple angular directives for using the features in <a href="http://materializecss.com">materializecss</a>. </p>
+                    <h1 class="header center-on-small-only"><a href="https://github.com/kresCruz/angular-materialize" style="color:white;">角物质化</a></h1>
+                    <p style="color: white;" class="center-on-small-only">这是在使用功能简单的角指令的集合<a href="http://materializecss.com">materializecss</a>。</p>
                 </div>
             </div>
         </div>
@@ -101,32 +101,32 @@
 
     <div class="container">
         <div class="row" id="about">
-            <h2 class="header">About angular-materialize</h2>
-            <p>This plugin is useful for you if you want to use the <a href="http://materializecss.com/">Materialize UI framework</a> with angular. </p>
-            <p>It includes a number of directives, which makes sure that the components in materialize.js, which are mainly initialized on document ready, are handled by Angular in the right way.<p>
-            <p>So it is not a complete rewrite of Materialize. And it therefore depends on jQuery, because Materialize depends on jQuery.</p>
-            <p>Below is a small example to get you started, and below that documentation for the directives which are included in this plugin. <br />
-                Some parts of materialize, like the CSS framework, doesn't require anything extra to work in an Angular context, and they are therefore not covered here. <br />
-                A list of the features in Materialize which does not yet work with angular-materialize can be found in <a href="https://github.com/krescruz/angular-materialize/blob/master/README.md#missing-features">the readme on Github</a>.
+            <h2 class="header">关于角物质化</h2>
+            <p>如果你想使用这个插件是对您有用<a href="http://materializecss.com/">兑现UI框架</a>具有角。</p>
+            <p>它包含了一些指令，这可以确保在materialize.js的组件，主要在初始化文件准备好，由角以正确的方式来处理。</p><p>
+            </p><p>因此，它是没有实现一个完全重写。并因此它依赖于jQuery的，因为兑现取决于jQuery的。</p>
+            <p>下面是一个小例子，让你开始，而文档，它们包含在这个插件。指令以下<br>
+                物质化的某些部分，如CSS框架，不需要任何额外的东西在角范围内的工作，他们是因此在此范围之内。<br>
+                在物化的功能这还没有与角物质化工作名单可以发现<a href="https://github.com/krescruz/angular-materialize/blob/master/README.md#missing-features">在Github上的自述</a>。
             </p>
         </div>
 
         <div class="row" id="getting-started">
-            <h2 class="header">Getting started</h2>
-            <p>This plugin and all of its dependencies are hosted on CDNs, which makes setup easy. <br />
-                To get a minimal example up and running, copy the below into index.html and app.js: </p>
+            <h2 class="header">入门</h2>
+            <p>这个插件和所有的依赖托管在CDN的，这使得安装容易的。<br>
+                为了得到一个小例子，启动和运行，复制到下面的index.html和app.js：</p>
             <pre><code class="language-markup" ng-non-bindable>&lt;html&gt;
 &lt;head&gt;
     &lt;title&gt;Minimal example&lt;/title&gt;
 
     &lt;!-- Materialize CSS --&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/css/materialize.min.css&quot;&gt;
 
     &lt;!-- JavaScript for: jQuery, angular, materialize, and angular-materialize. All of which are needed. --&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;https://code.jquery.com/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.1.8/angular-materialize.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.c2cmalls.com/ajax/libs/angularjs/1.5.5/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/js/materialize.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.c2cbc.com/ajax/libs/angular-materialize/0.1.8/angular-materialize.min.js&quot;&gt;&lt;/script&gt;
 
     &lt;!-- Your app --&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;app.js&quot;&gt;&lt;/script&gt;
@@ -161,32 +161,32 @@
         </div>
 
         <div class="row" id="input-field">
-            <h2 class="header">Input-field</h2>
-            <p>Materialize uses the class .input-field to manage animating labels and input-fields. But that doesn't work properly when angular dynamically creates element</p>
-            <p>Instead of adding the class input-field, use the input-field directive. This way it still works when angular dynamically creates it.</p>
-            <p>Just in Materialize, if you add the length attribute, a character-counter will appear (in the below length is set to 150). </p>
-            <p>The <code class="language-markup" data-language="markup">input</code> or <code class="language-markup" data-language="markup">textarea</code> tags has to be direct children of the element with the input-field tag. </p>
+            <h2 class="header">输入场</h2>
+            <p>物化使用类。输入场管理动画标签和输入字段。但是，当角动态创建元素不能正常工作</p>
+            <p>而不是添加类输入字段，使用输入字段指令。这样，它仍然有效时，角动态创建它。</p>
+            <p>只是在实现，如果添加的长度属性，字符计数器将出现（在下面的长度被设定为150）。 </p>
+            <p>在 <code class="language-markup" data-language="markup">input</code> 或 <code class="language-markup" data-language="markup">textarea</code>标签必须与输入字段标签元素的直接子。 </p>
         </div>
         <div class="row" ng-init="showInputLabel = true;dummyInputs.inputFieldInput = 'This is input'; dummyInputs.textAreaInput = 'Textareas \ncan\ncontain\nmultiple\nlines';">
             <div class="col s2">
-                <a class="btn waves-effect waves-light" ng-click="showInputLabel = !showInputLabel">Toggle input</a>
+                <a class="btn waves-effect waves-light" ng-click="showInputLabel = !showInputLabel">切换输入</a>
             </div>
             <div class="col s4" ng-if="showInputLabel">
                 <div input-field>
                     <input type="text" ng-model="dummyInputs.inputFieldInput" length="150">
-                    <label>Input label</label>
+                    <label>输入标签</label>
                 </div>
             </div>
             <div class="col s3" ng-if="showInputLabel">
                 <div input-field>
                     <textarea ng-model="dummyInputs.textAreaInput" class="materialize-textarea"></textarea>
-                    <label>Textarea</label>
+                    <label>多行文本</label>
                 </div>
             </div>
             <div class="col s3" ng-if="showInputLabel">
                 <div input-field>
                     <textarea ng-model="dummyInputs.textAreaInput" class="materialize-textarea"></textarea>
-                    <label>Synchronized textarea</label>
+                    <label>同步的textarea</label>
                 </div>
             </div>
         </div>
@@ -202,7 +202,7 @@
 &lt;/div&gt;</code></pre>
         </div>
         <div class="row">
-            <p>You can also use it as an element instead of an attribute.</p>
+            <p>你也可以使用它作为一个元素，而不是一个属性。</p>
 <pre><code class="language-markup" ng-non-bindable>
 &lt;input-field&gt;
     &lt;input type="text" ng-model="dummyInputs.inputFieldInput"&gt;
@@ -216,12 +216,12 @@
 
 
         <div class="row" id="input-date">
-            <h2 class="header">Input-date</h2>
-            <p>The below example is where there are values in all the options, but all the options are optional. </p>
-            <p>The attributes <code class="language-markup" data-language="markup">min</code> and <code class="language-markup" data-language="markup">max</code> can be any value representing a date. It should be in a format recognised by <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" title="Date - JavaScript | MDN">Date Constructor</a>.</p>
+            <h2 class="header">输入日期</h2>
+            <p>下面的例子是那里有所有选项的值，但所有的选项都是可选的。 </p>
+            <p>属性 <code class="language-markup" data-language="markup">min</code>最小 和 <code class="language-markup" data-language="markup">max</code>最大 可表示日期的任何值。它应该是通过识别的格式 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" title="日期 - JavaScript | MDN">日期构造函数</a>.</p>
         </div>
         <div class="row" ng-controller="DateController">
-            <label for="inputCreated">Input date</label>
+            <label for="inputCreated">输入日期</label>
             <input input-date
                    type="text"
                    name="created"
@@ -249,7 +249,7 @@
                    on-stop="onStop()" />
         </div>
         <div class="row">
-            <p>The code in the HTML</p>
+            <p>在HTML代码</p>
 <pre><code class="language-markup" ng-non-bindable>&lt;label for="inputCreated"&gt;Input date&lt;/label&gt;
 &lt;input input-date
     type="text"
@@ -279,14 +279,14 @@
             <p>And the JavaScript in the controller</p>
             <pre><code class="language-javascript">var currentTime = new Date();
 $scope.currentTime = currentTime;
-$scope.month = ['Januar', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-$scope.monthShort = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-$scope.weekdaysFull = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-$scope.weekdaysLetter = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+$scope.month = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+$scope.monthShort = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+$scope.weekdaysFull = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+$scope.weekdaysLetter = ['日', '一', '二', '三', '四', '五', '六'];
 $scope.disable = [false, 1, 7];
-$scope.today = 'Today';
-$scope.clear = 'Clear';
-$scope.close = 'Close';
+$scope.today = '今天';
+$scope.clear = '明确';
+$scope.close = '关';
 var days = 15;
 $scope.minDate = (new Date($scope.currentTime.getTime() - ( 1000 * 60 * 60 *24 * days ))).toISOString();
 $scope.maxDate = (new Date($scope.currentTime.getTime() + ( 1000 * 60 * 60 *24 * days ))).toISOString();
@@ -313,14 +313,14 @@ $scope.onStop = function () {
 
 
         <div class="row" id="input-clock">
-            <h2 class="header">Input-clock</h2>
-            <p>This is a wrapper made around the <a href="https://github.com/chingyawhao/materialize-clockpicker">materialize-clockpicker made by chingyawhao</a></p>
-            <p>The bundled JavaScript only includes the wrapper JavaScript, and for this to work you need to include the JavaScript and CSS from <a href="https://github.com/chingyawhao/materialize-clockpicker">materialize-clockpicker</a></p>
-            <p>The options for this wrapper are the same as the options for the original materialize-clockpicker. </p>
-            <p>Below is a small example, where the option <code class=" language-markup" data-language="markup">twelvehour</code> has been set to false. </p>
+            <h2 class="header">输入时钟</h2>
+            <p>这是围绕着做了一个包装<a href="https://github.com/chingyawhao/materialize-clockpicker">由chingyawhao取得物质化，clockpicker</a></p>
+            <p>捆绑的JavaScript只包括包装JavaScript和这个工作，你需要包括来自JavaScript和CSS <a href="https://github.com/chingyawhao/materialize-clockpicker">物质化，clockpicker</a></p>
+            <p>此包装的选项相同的原始物质化，clockpicker的选项。 </p>
+            <p>下面是一个小例子，其中该选项<code class=" language-markup" data-language="markup">twelvehour</code>12小时| 已被设置为假 </p>
         </div>
         <div class="row">
-            <label for="input_starttime">Time</label>
+            <label for="input_starttime">时间</label>
             <input id="input_starttime" input-clock data-twelvehour="false" type="text">
         </div>
         <div class="row">
@@ -331,13 +331,13 @@ $scope.onStop = function () {
 
 
         <div class="row" id="select">
-            <h2 class="header">Material select</h2>
-            <p>Add the material-select as an attribute to the select where you want material-select.</p>
-            <p>Not needed if you add the class browser-default.</p>
-            <p>It doesn't support changing content within the select, add the class browser-default if you want that.</p>
-            <p>If you add the attribute <code class=" language-markup" data-language="markup">watch</code>, then the material-select will re-initialize whenever something changes in the content within the select. <br />
-                That includes if the number of list elements change. <br />
-                But beware, while the implementation works, it is very heavy in computation, so tread lightly. </p>
+            <h2 class="header">材料选择</h2>
+            <p>添加材料的选择要在其中材料选择选择属性。</p>
+            <p>如果您添加类浏览器默认没有必要的。</p>
+            <p>它不支持在选择改变的内容，如果你想要的添加类浏览器的默认值。</p>
+            <p>如果您添加属性<code class=" language-markup" data-language="markup">watch</code>表, 然后将材料选择将重新初始化，只要东西中选择内容的变化。 <br />
+                这包括如果list元素的数量变化。<br>
+                但要注意，虽然执行的作品，它是计算非常重，所以小心行事。</p>
         </div>
         <div class="row">
             <div class="section col s4">
@@ -348,7 +348,7 @@ $scope.onStop = function () {
                 </div>
             </div>
             <div class="section col s8">
-                <h5>You selected: <b>{{select.value1}}</b></h5>
+                <h5>您已选择: <b>{{select.value1}}</b></h5>
             </div>
         </div>
         <div class="row">
@@ -361,7 +361,7 @@ $scope.onStop = function () {
         </div>
 
         <div class="row">
-            <h5>Multiple select</h5>
+            <h5>多重选择</h5>
             <div class="section col s4">
                 <div input-field>
                     <select class="" ng-model="select.value3" material-select multiple watch>
@@ -370,7 +370,7 @@ $scope.onStop = function () {
                 </div>
             </div>
             <div class="section col s8">
-                <h5>You selected: <b>{{select.value3}}</b></h5>
+                <h5>您选择: <b>{{select.value3}}</b></h5>
             </div>
         </div>
         <div class="row">
@@ -384,7 +384,7 @@ $scope.onStop = function () {
 
 
         <div class="row">
-            <h5>Using class browser-default</h5>
+            <h5>使用类浏览器默认</h5>
             <div class="section col s4">
                 <div input-field>
                     <select class="browser-default" ng-model="select.value2">
@@ -393,7 +393,7 @@ $scope.onStop = function () {
                 </div>
             </div>
             <div class="section col s8">
-                <h5>You selected: <b>{{select.value2}}</b></h5>
+                <h5>您选择了: <b>{{select.value2}}</b></h5>
             </div>
         </div>
         <div class="row">
@@ -406,9 +406,9 @@ $scope.onStop = function () {
         </div>
 
         <div class="row" id="range">
-          <h2 class="header">Range - noUiSlider</h2>
-          <p>You can use the HTML5 range element without needing to use a directive or extra JavaScript.
-              If you want to use the noUiSlider jQuery plugin that ships with materializecss,
+          <h2 class="header">范围 -  noUiSlider</h2>
+          <p>您可以使用HTML5元素的范围，而不需要使用指令或额外的JavaScript。如果你想使用noUiSlider jQuery插件，附带materializecss，你需要包括<a href="https://cdnjs.com/libraries/noUiSlider">noUiSlider的JS和CSS文件</a>，并使用<code class=" language-markup" data-language="markup">nouislider</code>指令。<br>
+
               you'll need to include <a href="https://cdnjs.com/libraries/noUiSlider">noUiSlider's JS and CSS file</a> and use the <code class="language-markup" data-language="markup">nouislider</code> directive. <br />
 <pre><code class="language-markup" ng-non-bindable>
 &lt;div nouislider ng-model="value" min="5" max="300"&gt;&lt;/div&gt;
@@ -418,14 +418,14 @@ $scope.onStop = function () {
         </div>
 
         <div class="row" id="collapsible">
-            <h2 class="header">Collapsible</h2>
-            <p>The collapsible below is populated using ng-repeat, just to show that it is possible. You can also just manually put in the content. </p>
-            <p>In the below, the popout class is added, which makes a "Google inbox" effect. Just remove the popout class to get a normal accordion. </p>
-            <p>Since this is just a wrapper for materializes collapsible, <a href="http://materializecss.com/collapsible.html">all their customization</a> can be used. </p>
-            <p>If you add the attribute <code class=" language-markup" data-language="markup">watch</code>, then the collapsible will re-initialize whenever something changes in the content within the collapsible. <br />
-                That includes if the number of list elements change. <br />
-                But beware, while the implementation works, it is very heavy in computation, so tread lightly. </p>
-            <a class="btn waves-effect waves-light" ng-init="showCollapsible = true" ng-click="showCollapsible = !showCollapsible">Show/hide the below collapsible</a>
+            <h2 class="header">可折叠</h2>
+            <p>下面的可折叠使用填充NG重复，只是为了表明它是可能的。你也可以手动将在内容。</p>
+            <p>在下面的的弹出类添加，这让“谷歌的收件箱”的效果。只是删除的弹出类来获得一个正常的手风琴。</p>
+            <p>因为这仅仅是为物化可折叠的包装，<a href="http://materializecss.com/collapsible.html">其所有的定制</a>可以使用。</p>
+            <p>如果您添加属性<code class="  language-markup" data-language="markup">表</code>，那么可折叠将重新初始化，只要东西在可折叠中的内容发生变化。<br>
+                这包括如果list元素的数量变化。<br>
+                但要注意，虽然执行的作品，它是在计算很重，所以小心行事。</p>
+            <a class="btn waves-effect waves-light" ng-init="showCollapsible = true" ng-click="showCollapsible = !showCollapsible">显示/隐藏可折叠下方</a>
         </div>
         <div class="row" ng-controller="CollapsibleController" ng-if="showCollapsible">
             <ul class="collapsible popout" data-collapsible="accordion" watch>
@@ -436,7 +436,7 @@ $scope.onStop = function () {
             </ul>
         </div>
         <div class="row">
-            <p>The code in the HTML</p>
+            <p>在HTML代码</p>
 <pre><code class="language-markup" ng-non-bindable>&lt;ul class="collapsible popout" data-collapsible="accordion" watch&gt;
     &lt;li ng-repeat="single in collapsibleElements"&gt;
         &lt;div class="collapsible-header"&gt;&lt;i class="{{single.icon}}"&gt;&lt;/i&gt;{{single.title}}&lt;/div&gt;
@@ -463,18 +463,18 @@ $scope.onStop = function () {
 
 
         <div class="row" id="toast">
-            <h2 class="header">Toasts</h2>
-            <p>Materializes toast is a global function. Using this directive you can call a toast using a custom event (in the below click), and show a message determined by a variable in the scope. <br />
-            The message is specified through the message attribute, and the duration is set though the duration attribute (defaults to 3000ms if not set).</p>
+            <h2 class="header">祝酒词</h2>
+            <p>物化敬酒是一个全球性的功能。使用这个指令，你可以使用自定义事件（在下面点击）调用敬酒，并显示在该范围内的变量决定的消息。<br>
+            通过消息属性指定的消息，并且持续时间设置，虽然持续时间属性（默认为3000ms如果没有设置）。</p>
         </div>
         <div class="row" ng-controller="ToastController">
             <div class="col s4" input-field>
                 <input id="message" type="text" ng-model="dummyInputs.message" ng-init="dummyInputs.message = 'I\'m a message'">
-                <label for="message">Message</label>
+                <label for="message">信息</label>
             </div>
             <div class="col s2" input-field>
                 <input id="toastDuration" type="text" ng-model="dummyInputs.duration" ng-init="dummyInputs.duration = 1000">
-                <label for="toastDuration">Toast duration</label>
+                <label for="toastDuration">显示时间</label>
             </div>
             <div class="input-field col s4">
                 <a class="waves-effect waves-light btn" message="{{dummyInputs.message}}" duration="{{dummyInputs.duration}}" callback="callback('Your toast was dismissed')" toast='click'>Toast!</a>
@@ -835,7 +835,7 @@ $scope.onStop = function () {
             <h2 class="header">Pagination</h2>
             <p>This is only the pagination buttons, it doesn't do anything to change the page. That you'll have to do in the callback</p>
             <p>In the below, changePage is a function defined on the controller. </p>
-            <p>Pr. default the prev/next buttons are icons from <a href="http://google.github.io/material-design-icons/">Material design icons</a>, which needs to be included, like this: <code class="language-markup">&lt;link href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot; rel=&quot;stylesheet&quot;&gt;</code> <br/>
+            <p>Pr. default the prev/next buttons are icons from <a href="http://google.github.io/material-design-icons/">Material design icons</a>, which needs to be included, like this: <code class="language-markup">&lt;link href=&quot;https://font.c2cmalls.com/icon?family=Material+Icons&quot; rel=&quot;stylesheet&quot;&gt;</code> <br/>
             It is also possible to set the option <code class="language-markup">use-simple-prev-next</code> to false, in which case simple ">" chars will be used.
             </p>
         </div>
@@ -869,15 +869,5 @@ $scope.onStop = function () {
 
     </div>
 </main>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-77857535-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
